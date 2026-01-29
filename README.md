@@ -52,6 +52,26 @@ Aplikacja wykorzystuje następujące sensory oraz systemowe źródła danych dos
 
 ---
 
+Główny ekran aplikacji wyświetlający liste pomiarów
+<img width="332" height="713" alt="obraz" src="https://github.com/user-attachments/assets/9674187f-993c-4048-9b80-ca981a137602" />
+
+---
+
+Ekran dodawania nowego pomiaru
+<img width="332" height="727" alt="obraz" src="https://github.com/user-attachments/assets/ebec1e95-0a90-401a-922e-fa23855ce776" />
+
+---
+
+Ekran szczegółów danego pomiaru
+<img width="333" height="711" alt="obraz" src="https://github.com/user-attachments/assets/0376eadb-240c-4541-8f5a-7f2c1da5e44f" />
+
+---
+
+Wysyłanie listy pomiarów poprzez e-mail
+<img width="328" height="711" alt="obraz" src="https://github.com/user-attachments/assets/e71ef6a1-dd9f-4c65-8287-2d451a052150" />
+
+---
+
 ## 🚀 Uruchomienie projektu
 
 1. Otwórz projekt w **Android Studio**  
