@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- dla plików cache -->
+    <cache-path
+        name="cache"
+        path="." />
+
+    <!-- opcjonalnie pliki app-specific -->
+    <files-path
+        name="files"
+        path="." />
+</paths>
