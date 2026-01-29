@@ -43,6 +43,15 @@ Aplikacja wykorzystuje następujące sensory oraz systemowe źródła danych dos
 
 ---
 
+### 📷 Aparat
+- **Źródło:** kamera urządzenia  
+- **Dane:** zdjęcie zapisane jako plik lokalny  
+- **Zastosowanie:** wizualna dokumentacja pomiaru  
+- **Wymagane uprawnienia:**  
+  - `CAMERA`  
+
+---
+
 ## 📋 Główny ekran aplikacji
 Widok listy zapisanych pomiarów środowiskowych.
 
