@@ -22,7 +22,8 @@ Funkcjonalności:
 
 📤 Eksport pomiarów e-mailem jako załącznik w formacie JSON
 
-🚀 Uruchomienie projektu
+
+Uruchomienie projektu:
 
 Otwórz projekt w Android Studio
 
@@ -30,10 +31,4 @@ Zbuduj aplikację (Build → Build APK)
 
 Zainstaluj plik app-debug.apk na emulatorze lub urządzeniu fizycznym
 
-Przyznaj wymagane uprawnienia:
-
-Lokalizacja
-
-Mikrofon
-
-Aparat
+Przyznaj wymagane uprawnienia: Lokalizacja, Mikrofon, Aparat
