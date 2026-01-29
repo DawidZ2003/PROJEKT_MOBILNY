@@ -1,78 +1,67 @@
-# PROJEKT_MOBILNY
-Aplikacja mobilna na Androida służąca do zbierania i zarządzania pomiarami środowiskowymi.
-Umożliwia rejestrowanie lokalizacji GPS, poziomu hałasu z mikrofonu oraz dokumentowanie pomiarów zdjęciem z aparatu.
+# 📱 PROJEKT_MOBILNY
 
-Projekt został stworzony w Kotlinie z wykorzystaniem Jetpack Compose, ViewModel.
+Aplikacja mobilna na system **Android** służąca do **zbierania i zarządzania pomiarami środowiskowymi**.  
+Umożliwia rejestrowanie **lokalizacji GPS**, **poziomu hałasu** z mikrofonu oraz dokumentowanie pomiarów **zdjęciem z aparatu**.
 
-Funkcjonalności:
+Projekt został stworzony w **Kotlinie** z wykorzystaniem **Jetpack Compose** oraz **ViewModel**.
 
-📍 Pobieranie aktualnej lokalizacji GPS
+---
 
-🔊 Pomiar poziomu hałasu z mikrofonu
+## ✨ Funkcjonalności
 
-📷 Wykonywanie zdjęć dla każdego pomiaru
+- 📍 Pobieranie aktualnej lokalizacji GPS  
+- 🔊 Pomiar poziomu hałasu z mikrofonu  
+- 📷 Wykonywanie zdjęć dla każdego pomiaru  
+- 📋 Lista zapisanych pomiarów  
+- 🔍 Podgląd szczegółów pojedynczego pomiaru  
+- 🗑 Usuwanie pojedynczych lub wszystkich pomiarów  
+- 💾 Zapis danych do pliku JSON  
+- 📤 Eksport pomiarów e-mailem jako załącznik w formacie JSON  
 
-📋 Lista zapisanych pomiarów
+---
 
-🔍 Podgląd szczegółów pojedynczego pomiaru
+## 📡 Użyte sensory i źródła danych
 
-🗑 Usuwanie pojedynczych lub wszystkich pomiarów
+Aplikacja wykorzystuje następujące sensory oraz systemowe źródła danych dostępne na urządzeniach z systemem Android.
 
-💾 Zapis danych do pliku JSON
+### 📍 Lokalizacja (GPS)
+- **Źródło:** Fused Location Provider (Google Play Services)  
+- **Dane:** szerokość i długość geograficzna (*latitude, longitude*)  
+- **Zastosowanie:** określenie miejsca wykonania pomiaru  
+- **Wymagane uprawnienia:**  
+  - `ACCESS_FINE_LOCATION`  
+  - `ACCESS_COARSE_LOCATION`  
 
-📤 Eksport pomiarów e-mailem jako załącznik w formacie JSON
+---
 
+### 🔊 Mikrofon (czujnik dźwięku)
+- **Źródło:** mikrofon urządzenia (`AudioRecord`)  
+- **Dane:** poziom natężenia dźwięku  
+- **Zastosowanie:** pomiar poziomu hałasu otoczenia  
+- **Wymagane uprawnienia:**  
+  - `RECORD_AUDIO`  
 
-Użyte sensory i źródła danych
+---
 
-Aplikacja wykorzystuje następujące sensory oraz systemowe źródła danych:
+### 📷 Aparat
+- **Źródło:** kamera urządzenia  
+- **Dane:** zdjęcie zapisane jako plik lokalny  
+- **Zastosowanie:** wizualna dokumentacja pomiaru  
+- **Wymagane uprawnienia:**  
+  - `CAMERA`  
 
-📍 Lokalizacja (GPS)
+---
 
-Źródło: Fused Location Provider (Google Play Services)
+## 🚀 Uruchomienie projektu
 
-Dane: szerokość i długość geograficzna (latitude, longitude)
+1. Otwórz projekt w **Android Studio**  
+2. Zbuduj aplikację:  
+   **Build → Build APK**  
+3. Zainstaluj plik `app-debug.apk` na emulatorze lub urządzeniu fizycznym  
+4. Przyznaj wymagane uprawnienia:
+   - Lokalizacja  
+   - Mikrofon  
+   - Aparat  
 
-Zastosowanie: określenie miejsca wykonania pomiaru
+---
 
-Wymagane uprawnienia:
-
-ACCESS_FINE_LOCATION
-ACCESS_COARSE_LOCATION
-
-🔊 Mikrofon (czujnik dźwięku)
-
-Źródło: mikrofon urządzenia (AudioRecord)
-
-Dane: poziom natężenia dźwięku
-
-Zastosowanie: pomiar poziomu hałasu otoczenia
-
-Wymagane uprawnienia:
-
-RECORD_AUDIO
-
-📷 Aparat
-
-Źródło: kamera urządzenia
-
-Dane: zdjęcie zapisane jako plik lokalny
-
-Zastosowanie: wizualna dokumentacja pomiaru
-
-Wymagane uprawnienia:
-
-CAMERA
-
-
-
-
-Uruchomienie projektu:
-
-Otwórz projekt w Android Studio
-
-Zbuduj aplikację (Build → Build APK)
-
-Zainstaluj plik app-debug.apk na emulatorze lub urządzeniu fizycznym
-
-Przyznaj wymagane uprawnienia: Lokalizacja, Mikrofon, Aparat
