@@ -93,7 +93,7 @@ Wysyłanie zapisanych danych jako załącznik w formacie JSON.
 1. Otwórz projekt w **Android Studio**  
 2. Zbuduj aplikację:  
    **Build → Build APK**  
-3. Zainstaluj plik `app-debug.apk` na emulatorze lub urządzeniu fizycznym  
+3. Zainstaluj plik `app-debug.apk` (plik dostępny w repozytorium) na emulatorze lub urządzeniu fizycznym  
 4. Przyznaj wymagane uprawnienia:
    - Lokalizacja  
    - Mikrofon  
