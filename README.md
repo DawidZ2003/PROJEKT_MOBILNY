@@ -39,36 +39,43 @@ Aplikacja wykorzystuje następujące sensory oraz systemowe źródła danych dos
 - **Dane:** poziom natężenia dźwięku  
 - **Zastosowanie:** pomiar poziomu hałasu otoczenia  
 - **Wymagane uprawnienia:**  
-  - `RECORD_AUDIO`  
+  - `RECORD_AUDIO`
 
 ---
 
-### 📷 Aparat
-- **Źródło:** kamera urządzenia  
-- **Dane:** zdjęcie zapisane jako plik lokalny  
-- **Zastosowanie:** wizualna dokumentacja pomiaru  
-- **Wymagane uprawnienia:**  
-  - `CAMERA`  
+## 📋 Główny ekran aplikacji
+Widok listy zapisanych pomiarów środowiskowych.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/9674187f-993c-4048-9b80-ca981a137602" width="330"/>
+</p>
 
 ---
 
-Główny ekran aplikacji wyświetlający liste pomiarów
-<img width="332" height="713" alt="obraz" src="https://github.com/user-attachments/assets/9674187f-993c-4048-9b80-ca981a137602" />
+## ➕ Ekran dodawania nowego pomiaru
+Formularz umożliwiający zapis nowego pomiaru wraz z lokalizacją, poziomem hałasu i zdjęciem.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ebec1e95-0a90-401a-922e-fa23855ce776" width="330"/>
+</p>
 
 ---
 
-Ekran dodawania nowego pomiaru
-<img width="332" height="727" alt="obraz" src="https://github.com/user-attachments/assets/ebec1e95-0a90-401a-922e-fa23855ce776" />
+## 🔍 Ekran szczegółów pomiaru
+Szczegółowe informacje dotyczące wybranego pomiaru.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0376eadb-240c-4541-8f5a-7f2c1da5e44f" width="330"/>
+</p>
 
 ---
 
-Ekran szczegółów danego pomiaru
-<img width="333" height="711" alt="obraz" src="https://github.com/user-attachments/assets/0376eadb-240c-4541-8f5a-7f2c1da5e44f" />
+## 📤 Eksport pomiarów e-mailem
+Wysyłanie zapisanych danych jako załącznik w formacie JSON.
 
----
-
-Wysyłanie listy pomiarów poprzez e-mail
-<img width="328" height="711" alt="obraz" src="https://github.com/user-attachments/assets/e71ef6a1-dd9f-4c65-8287-2d451a052150" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e71ef6a1-dd9f-4c65-8287-2d451a052150" width="330"/>
+</p>
 
 ---
 
