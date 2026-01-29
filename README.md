@@ -3,7 +3,7 @@
 Aplikacja mobilna na system **Android** służąca do **zbierania i zarządzania pomiarami środowiskowymi**.  
 Umożliwia rejestrowanie **lokalizacji GPS**, **poziomu hałasu** z mikrofonu oraz dokumentowanie pomiarów **zdjęciem z aparatu**.
 
-Projekt został stworzony w **Kotlinie** z wykorzystaniem **Jetpack Compose** oraz **ViewModel**.
+Projekt został stworzony w **Kotlinie** z wykorzystaniem **Jetpack Compose**.
 
 ---
 
